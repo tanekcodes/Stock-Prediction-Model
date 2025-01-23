@@ -12,21 +12,7 @@ This project aims to predict stock prices using machine learning techniques, foc
 
 ---
 
-## **Directory Structure**
-```plaintext
-stock-price-prediction/
-│
-├── data/                 # Folder for storing raw and processed datasets
-├── results/              # Folder for storing output files like predictions and plots
-├── src/                  # Folder containing Python scripts
-│   ├── data_processing.py        # Script for fetching and processing data
-│   ├── train_model.py            # Script for training the Linear Regression model
-│   ├── evaluate_model.py         # Script for evaluating the model
-│   ├── strategy_backtest.py      # Script for backtesting the trading strategy
-├── README.md             # Project documentation (this file)
-├── requirements.txt      # List of required Python libraries
-
-Installation Instructions
+## Installation Instructions
 Follow these steps to set up and run the project on your local machine.
 
 1. Clone the Repository
@@ -122,6 +108,23 @@ Here is an example of a stock price prediction plot:
 
 Future Enhancements
 Some ideas for improving the project:
+
+## **Directory Structure**
+```plaintext
+stock-price-prediction/
+│
+├── data/                 # Folder for storing raw and processed datasets
+├── results/              # Folder for storing output files like predictions and plots
+├── src/                  # Folder containing Python scripts
+│   ├── data_processing.py        # Script for fetching and processing data
+│   ├── train_model.py            # Script for training the Linear Regression model
+│   ├── evaluate_model.py         # Script for evaluating the model
+│   ├── strategy_backtest.py      # Script for backtesting the trading strategy
+├── README.md             # Project documentation (this file)
+├── requirements.txt      # List of required Python libraries
+
+---
+
 
 Add more machine learning models (e.g., Random Forest, Gradient Boosting).
 Use LSTM (Long Short-Term Memory) for time-series forecasting.
